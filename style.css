@@ -1,0 +1,129 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 40px;
+}
+html,body{
+    font-family: "Inter", serif;
+    font-weight: 400;   
+}
+img{
+    height: 50px;
+    width: auto;
+    margin-right:80px;
+}
+.main{
+    background-color:rgb(211, 213, 215);
+    height: 100vh;
+    width: 100%;
+}
+.nav1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    margin-right: 40px; 
+}
+.nav2 i {
+    margin-right: 40px;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color:rgb(139, 140, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: calc(100%-110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 40%;
+    padding:  80px 100px;
+}
+.left h5{
+    font-size: 20px;
+    color: rgb(102, 100, 100);
+    margin-bottom: 15px;
+}    
+.left h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+    }  
+.left p{
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 30px;   
+} 
+.btn{
+    background-color: black;
+    color: white;
+    font-family: 15px;
+    font-weight: 600;
+    border-radius: 0 50px 50px 50px;
+    padding: 12px 40px;
+} 
+.right{
+    height: 100%;
+    width: 60%;
+    padding:  110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+.product{
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    position: relative;
+    box-shadow:0 5px 10px rgba(17,0,17,0.3);
+    display: inline-block;
+    margin-right: 20px;
+}
+.product img{
+    height: 100%  ;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+    
+.product h4{
+    font-size: 18px;
+    position: absolute;
+    bottom: 28%;
+}
+.category{
+    font-weight: 500  ;
+    position: absolute;
+    bottom: 20%; 
+}
+.color{
+    font-weight: 500  ;
+    position: absolute;
+    bottom: 15%; 
+}
+.price{
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    bottom: 5%; 
+}
